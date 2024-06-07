@@ -29,7 +29,7 @@ async def ping(_, message: Message):
 
     ms = (datetime.now() - start).microseconds / 1000
     await loda.edit_text(
-        text=f"нey вαву!!\n{VenomX.name} ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n<b>|| мαdє ωιтн ❣️ ву [𝗔𝗛𝗟-𝗘-𝗜𝗦𝗛𝗤](https://t.me/StatusWorld_05) ||</b>",
+        text=f"нey вαву!!\n{VenomX.name} ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n<b>|| мαdє ωιтн ❣️ ву [ᴋᴀɴʜᴀ](https://t.me/DEADLY_KANHA) ||</b>",
         reply_markup=InlineKeyboardMarkup(PNG_BTN),
     )
     if message.chat.type == ChatType.PRIVATE:
